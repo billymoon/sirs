@@ -1,0 +1,17 @@
+{
+  "name": "sirs",
+  "version": "0.0.1",
+  "description": "Simple file server with http proxy",
+  "main": "index.js",
+  "author": "Billy Moon",
+  "license": "ISC",
+  "bin": {
+    "sirs": "./bin/sirs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0",
+    "serve-index": "^1.9.1"
+  }
+}
